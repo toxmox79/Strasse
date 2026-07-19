@@ -1,25 +1,25 @@
 # Straße · Punktezähler
 
-Installierbare Webapp für eine Straße-/10.000-artige Würfelspielvariante.
+Eigenständige, installierbare Webapp zum Punktezählen beim Würfelspiel Straße.
 
 ## Funktionen
 
-- 2–8 Spieler mit eigener Farbe
-- Zugbank und Niete
-- Schnellwerte 50–1.000
-- konfigurierbarer Straßenwert 1.000–3.000
-- freie Punkteingabe
-- Undo im aktuellen Zug
-- Ziel 5.000–20.000
-- optionaler Mindesteintritt
-- Ziel exakt oder mindestens erreichen
-- Verlauf, Endstand, Hell-/Dunkelmodus, Vollbild und Offline-PWA
+- Beliebig viele Mitspieler
+- Eigene, dauerhaft sichtbare Farbe pro Spieler
+- Schaltfläche **+ Mitspieler hinzufügen** direkt unter der Namensliste
+- Zielpunktzahl frei manuell einstellbar; Standard: **10.000 Punkte**
+- Straßenwert frei manuell einstellbar; Standard: **3.500 Punkte**
+- Zugbank, Niete, Undo und automatischer Spielerwechsel
+- Optionaler Mindesteintritt und exakte Zielregel
+- Helles und dunkles Design
+- Vollbildmodus, PWA-Installation und Offline-Nutzung
+- Lokale Speicherung ohne Datenübertragung
 
-## Start
+## Lokal starten
 
 ```bash
 cd strasse-punktezaehler
 python3 -m http.server 8080
 ```
 
-Dann `http://localhost:8080` öffnen.
+Danach `http://localhost:8080` öffnen.
