@@ -1,0 +1,3 @@
+4.1.0
+Zugbank vor Spielerübersicht
+Neues Icon ohne Text
